@@ -4,7 +4,7 @@ var howB = 2;
 
 size(1500, 650);
 
-background(157, 194, 227);
+background(255, 194, 227);
 fill(115, 255, 0);
 
 // Stop the animating while the mouse is pressed down
