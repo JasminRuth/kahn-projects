@@ -26,15 +26,14 @@ void draw() {
     triangle(posX+2*howB,posY+1,posX+3*howB,posY+1,posX+2*howB,posY+1*howB);//3
 	fill(255,0,255);
     triangle(posX+3*howB,posY+1,posX+4*howB,posY+1,posX+3*howB,posY+1*howB);//4
-///second row
-
+	fill(255,210,255);
     triangle(posX+1,posY+1*howB,posX+1*howB,posY+1*howB,posX+1,posY+2*howB);//1
     triangle(posX+1*howB,posY+1*howB,posX+2*howB,posY+1*howB,posX+1*howB,posY+2*howB);//2
     triangle(posX+2*howB,posY+1*howB,posX+3*howB,posY+1*howB,posX+2*howB,posY+2*howB);//3
     triangle(posX+3*howB,posY+1*howB,posX+4*howB,posY+1*howB,posX+3*howB,posY+2*howB);//4
 	
-	fill(155,155,255);
-	triangle(400,posY+400-howB,400,410,410,410);
+	//fill(155,155,255);
+	//triangle(400,posY+400-howB,400,410,410,410);
     posX ++;
     posY ++;
     howB ++;
